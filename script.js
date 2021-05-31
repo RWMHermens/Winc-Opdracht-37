@@ -7,12 +7,10 @@ const array = [
     { name: "Dr.Evil", profession: "digital overlord", age: 56 }
 ];
 
-let year = 2021
-
 for (let person of array) {
     // console.log("Dit is de gehele persoon:", person);
     // console.log("Dit is de naam:", person.name);
-    // console.log("Dit is het geboortejaar:", year - person.age);
+    // console.log("Dit is het geboortejaar:", 2021 - person.age);
     // console.log(person.name, "is een " + person.profession);
     if (person.age > 50) {
         console.log(person.name, "is " + person.age, "jaar");
